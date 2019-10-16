@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+get_gw:
+  path: /gw
+  controller: App\Controller\GwController::getGw
